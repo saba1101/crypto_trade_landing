@@ -1,0 +1,97 @@
+.guide-wrapper{
+    margin-top: 6.25rem;
+    .labels{
+        text-align: center;
+        span{
+            display: block;
+        }
+        .title{
+            font-size: 4.6875rem;
+            color: #FFFFFF;
+            font-weight: 700;
+        }
+        .description{
+            margin-top: 0.9375rem;
+            font-size: 1.5rem;
+            color: rgba(#FFFFFF,.7);
+        }
+    }
+
+    .content{
+        margin-top: 2.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 13.75rem;
+
+        .left{
+            .image-placeholder{
+                border-radius: 0.625rem;
+                overflow: hidden;
+                img{
+                    width: 28.125rem;
+                }
+            }
+        }
+
+        .right{
+            span{
+                font-size: 2.25rem;
+                color: #EF443B;
+                font-weight: 600;
+            }
+
+            ul{
+                margin-top: 2.5rem;
+                li{
+                    width: 17.75rem;
+                    padding: 0 0.3125rem;
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    border: 0.0625rem solid rgba(#EF443B,.5);
+                    margin-top: 1.5625rem;
+                    border-radius: 2.5rem;
+                    padding: 0.625rem;
+                    transition: all .2s;
+
+                    &:hover{
+                        box-shadow: 0 0 1.875rem 0.625rem rgba(#EF443B,.2);
+                        cursor: pointer;
+                        .index{
+                            background: #6fc953;
+                        }
+                    }
+
+                    &:first-child{
+                        margin-top: 0;
+                    }
+
+                    .index{
+                        border-radius: 50%;
+                        background: #EF443B;
+                        width: 2rem;
+                        height: 2rem;
+                        display: grid;
+                        place-items: center;
+                        transition: all .2s;
+
+                        span{
+                            font-size: 1rem;
+                            color: #160E33;
+                        }
+                    }
+
+                    .step-title{
+                        margin-left: 0.9375rem;
+                        span{
+                            font-size: 1.125rem;
+                            font-weight: 500;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}

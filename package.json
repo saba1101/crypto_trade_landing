@@ -1,0 +1,17 @@
+{
+  "name": "crypto_landing",
+  "version": "1.0.0",
+  "description": "crypto landing website",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "crypto",
+    "landing",
+    "website",
+    "template"
+  ],
+  "author": "blitz",
+  "license": "ISC"
+}

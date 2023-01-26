@@ -1,0 +1,118 @@
+.home-wrapper {
+  background-image: url("/assets/images/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  text-align: center;
+  padding-bottom: 3.125rem;
+  background-color: #160E33;
+  background-blend-mode: color-dodge;
+}
+.home-wrapper .title {
+  padding-top: 3rem;
+}
+.home-wrapper .title span {
+  font-size: 5rem;
+  line-height: 5.5625rem;
+  color: #FFFFFF;
+  display: block;
+  font-weight: 700;
+}
+.home-wrapper .label {
+  margin-top: 2.3125rem;
+}
+.home-wrapper .label span {
+  font-size: 1.125rem;
+  color: #FFFFFF;
+  font-weight: 400;
+}
+.home-wrapper .time-counter {
+  margin: auto;
+  max-width: 28.125rem;
+  margin-top: 1.6875rem;
+  border-radius: 4rem;
+  padding: 0.625rem 1.25rem;
+  background: rgba(22, 14, 51, 0.5);
+}
+.home-wrapper .time-counter ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.home-wrapper .time-counter ul li {
+  position: relative;
+  pointer-events: none;
+}
+.home-wrapper .time-counter ul li:not(.home-wrapper .time-counter ul li:last-child)::after {
+  content: ":";
+  color: #FFFFFF;
+  font-size: 1.1rem;
+  font-weight: 900;
+  position: absolute;
+  top: 50%;
+  right: -0.75rem;
+  transform: translate(0, -50%);
+}
+.home-wrapper .time-counter ul li span {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: #EF443B;
+}
+.home-wrapper .actions {
+  margin-top: 1.6875rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.875rem;
+}
+.home-wrapper .actions button {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 2.5rem;
+  padding: 0.75rem 1.5rem;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+.home-wrapper .actions .download-action button {
+  background: #EF443B;
+  border: 0.0625rem solid transparent;
+}
+.home-wrapper .actions .download-action button:hover {
+  background: #6fc953;
+}
+.home-wrapper .actions .trade-action button {
+  border: 0.0625rem solid #EF443B;
+  background: transparent;
+}
+.home-wrapper .actions .trade-action button:hover {
+  background-color: #6fc953;
+  border: 0.0625rem solid transparent;
+}
+.home-wrapper .additional-labels {
+  margin-top: 2.3125rem;
+}
+.home-wrapper .additional-labels span {
+  font-size: 1.125rem;
+  color: #FFFFFF;
+  font-weight: 500;
+}
+.home-wrapper .additional-labels ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.1875rem;
+  margin-top: 1.5rem;
+}
+.home-wrapper .additional-labels ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.625rem;
+}
+.home-wrapper .additional-labels ul li img {
+  width: 1.5rem;
+}
+
+/*# sourceMappingURL=Home.css.map */

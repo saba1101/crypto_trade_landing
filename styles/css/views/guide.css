@@ -1,0 +1,85 @@
+.guide-wrapper {
+  margin-top: 6.25rem;
+}
+.guide-wrapper .labels {
+  text-align: center;
+}
+.guide-wrapper .labels span {
+  display: block;
+}
+.guide-wrapper .labels .title {
+  font-size: 4.6875rem;
+  color: #FFFFFF;
+  font-weight: 700;
+}
+.guide-wrapper .labels .description {
+  margin-top: 0.9375rem;
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+.guide-wrapper .content {
+  margin-top: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 13.75rem;
+}
+.guide-wrapper .content .left .image-placeholder {
+  border-radius: 0.625rem;
+  overflow: hidden;
+}
+.guide-wrapper .content .left .image-placeholder img {
+  width: 28.125rem;
+}
+.guide-wrapper .content .right span {
+  font-size: 2.25rem;
+  color: #EF443B;
+  font-weight: 600;
+}
+.guide-wrapper .content .right ul {
+  margin-top: 2.5rem;
+}
+.guide-wrapper .content .right ul li {
+  width: 17.75rem;
+  padding: 0 0.3125rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border: 0.0625rem solid rgba(239, 68, 59, 0.5);
+  margin-top: 1.5625rem;
+  border-radius: 2.5rem;
+  padding: 0.625rem;
+  transition: all 0.2s;
+}
+.guide-wrapper .content .right ul li:hover {
+  box-shadow: 0 0 1.875rem 0.625rem rgba(239, 68, 59, 0.2);
+  cursor: pointer;
+}
+.guide-wrapper .content .right ul li:hover .index {
+  background: #6fc953;
+}
+.guide-wrapper .content .right ul li:first-child {
+  margin-top: 0;
+}
+.guide-wrapper .content .right ul li .index {
+  border-radius: 50%;
+  background: #EF443B;
+  width: 2rem;
+  height: 2rem;
+  display: grid;
+  place-items: center;
+  transition: all 0.2s;
+}
+.guide-wrapper .content .right ul li .index span {
+  font-size: 1rem;
+  color: #160E33;
+}
+.guide-wrapper .content .right ul li .step-title {
+  margin-left: 0.9375rem;
+}
+.guide-wrapper .content .right ul li .step-title span {
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+/*# sourceMappingURL=guide.css.map */

@@ -1,0 +1,32 @@
+nav{
+    width: 102.5rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 1.875rem;
+    .logo{
+        span{
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #EF443B;
+            text-shadow: 0.0625rem 0.125rem 0.125rem rgba(#fff,.5);
+        }
+    }
+
+    ul{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+        li{
+            padding: 0.625rem 1.875rem;
+
+            span{
+                font-size: 1rem;
+                font-weight: 600;
+                color: #ffffff;
+                cursor: pointer;
+            }
+        }
+    }
+}
