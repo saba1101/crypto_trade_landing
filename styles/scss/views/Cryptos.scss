@@ -1,0 +1,91 @@
+.available-cryptos{
+    margin-top: 5.625rem;
+    .title{
+        text-align: center;
+        span{
+            font-size: 4rem;
+            color: #FFFFFF;
+        }
+    }
+
+    .description{
+        text-align: center;
+        
+        span{
+            font-size: 1.5rem;
+            color: rgba(#FFFFFF,.7);
+        }
+    }
+
+    ul{
+        margin-top: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1.875rem;
+
+        li{
+            width: 21.875rem;
+            background:#FFFFFF;
+            border-radius: 0.75rem;
+            padding-bottom: 0.9375rem;
+
+            .image-placeholder{
+                width: 100%;
+                height: 21.875rem;
+                background-size: cover;
+                background-repeat: no-repeat;
+
+                &.bitcoin{
+                    background-image: url('/assets/images/cryptos/bitcoin.png');
+                }
+                &.litecoin{
+                    background-image: url('/assets/images/cryptos/litecoin.png');
+                }
+                &.etherium{
+                    background-image: url('/assets/images/cryptos/etherium.png');
+                }
+            }
+
+            .card-title{
+                padding: 0 1.5rem;
+                margin-top: 1.5rem;
+                span{
+                    font-size: 1.5rem;
+                    color:#160E33;
+                }
+            }
+
+            .card-description{
+                padding: 0 1.5rem;
+                margin-top: 1.5rem;
+                span{
+                    font-size: 1.125rem;
+                    color:rgba(#160E33,.6);
+                }
+            }
+
+            .details{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 0 1.5rem;
+                margin-top: 1.5rem;
+
+                span{
+                    font-size: 2.25rem;
+                    color: #EF443B;
+                }
+
+                button{
+                    padding: 0.9375rem 1.5rem;
+                    color: #FFFFFF;
+                    border-radius: 2.5rem;
+                    background: #EF443B;
+                    border: none;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,53 @@
+.features{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    margin-top: 9.6875rem;
+    .title{
+        span{
+            font-size: 4rem;
+            color: #ffffff;
+        }
+    }
+    .description{
+        span{
+            color: rgba(#ffffff,.7);
+            font-size: 1.5rem;
+            margin-top: 0.625rem;
+        }
+    }
+
+    ul{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 5.875rem;
+        margin-top: 3.5rem;
+        li{
+            max-width: 25rem;
+            .label{
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                gap: 1.875rem;
+
+                img{
+                    width: 3.75rem;
+                }
+                span{
+                    color: #ffffff;
+                    font-size: 1.875rem;
+                }
+            }
+
+            .description-label{
+                margin-top: 0.9375rem;
+                span{
+                    font-size: 1.5rem;
+                    color: rgba(#ffffff,.6);
+                }
+            }
+        }
+    }
+}

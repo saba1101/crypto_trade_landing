@@ -7,6 +7,7 @@
   padding-bottom: 3.125rem;
   background-color: #160E33;
   background-blend-mode: color-dodge;
+  background-attachment: fixed;
 }
 .home-wrapper .title {
   padding-top: 3rem;

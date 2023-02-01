@@ -1,0 +1,47 @@
+.features {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 9.6875rem;
+}
+.features .title span {
+  font-size: 4rem;
+  color: #ffffff;
+}
+.features .description span {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1.5rem;
+  margin-top: 0.625rem;
+}
+.features ul {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 5.875rem;
+  margin-top: 3.5rem;
+}
+.features ul li {
+  max-width: 25rem;
+}
+.features ul li .label {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.875rem;
+}
+.features ul li .label img {
+  width: 3.75rem;
+}
+.features ul li .label span {
+  color: #ffffff;
+  font-size: 1.875rem;
+}
+.features ul li .description-label {
+  margin-top: 0.9375rem;
+}
+.features ul li .description-label span {
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/*# sourceMappingURL=Features.css.map */

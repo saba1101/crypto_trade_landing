@@ -1,0 +1,82 @@
+.available-cryptos {
+  margin-top: 5.625rem;
+}
+.available-cryptos .title {
+  text-align: center;
+}
+.available-cryptos .title span {
+  font-size: 4rem;
+  color: #FFFFFF;
+}
+.available-cryptos .description {
+  text-align: center;
+}
+.available-cryptos .description span {
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+.available-cryptos ul {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.875rem;
+}
+.available-cryptos ul li {
+  width: 21.875rem;
+  background: #FFFFFF;
+  border-radius: 0.75rem;
+  padding-bottom: 0.9375rem;
+}
+.available-cryptos ul li .image-placeholder {
+  width: 100%;
+  height: 21.875rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.available-cryptos ul li .image-placeholder.bitcoin {
+  background-image: url("/assets/images/cryptos/bitcoin.png");
+}
+.available-cryptos ul li .image-placeholder.litecoin {
+  background-image: url("/assets/images/cryptos/litecoin.png");
+}
+.available-cryptos ul li .image-placeholder.etherium {
+  background-image: url("/assets/images/cryptos/etherium.png");
+}
+.available-cryptos ul li .card-title {
+  padding: 0 1.5rem;
+  margin-top: 1.5rem;
+}
+.available-cryptos ul li .card-title span {
+  font-size: 1.5rem;
+  color: #160E33;
+}
+.available-cryptos ul li .card-description {
+  padding: 0 1.5rem;
+  margin-top: 1.5rem;
+}
+.available-cryptos ul li .card-description span {
+  font-size: 1.125rem;
+  color: rgba(22, 14, 51, 0.6);
+}
+.available-cryptos ul li .details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+  margin-top: 1.5rem;
+}
+.available-cryptos ul li .details span {
+  font-size: 2.25rem;
+  color: #EF443B;
+}
+.available-cryptos ul li .details button {
+  padding: 0.9375rem 1.5rem;
+  color: #FFFFFF;
+  border-radius: 2.5rem;
+  background: #EF443B;
+  border: none;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=Cryptos.css.map */

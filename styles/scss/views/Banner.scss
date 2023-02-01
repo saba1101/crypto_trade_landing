@@ -1,0 +1,39 @@
+.banner-wrapper{
+    width: 100%;
+    height: 37.5rem;
+    margin-top: 8.6875rem;
+    text-align: center;
+    background-image: url('/assets/images/banner/bannerbg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-attachment: fixed;
+
+    .title{
+        span{
+            font-size: 4.5rem;
+            color: #FFFFFF;
+        }
+    }
+
+    .sources{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1.875rem;
+        margin-top: 2.8125rem;
+
+        div{
+            cursor: pointer;
+        }
+
+        img{
+            width: 9.75rem;
+        }
+    }
+
+}
