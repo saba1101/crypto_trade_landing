@@ -6,6 +6,9 @@ const initPage = () => {
     $('#features').load("/modules/features/Features.html")
     $('#banner').load("/modules/banners/banner.html")
     $('#testimonials').load("/modules/testimonials/Testimonials.html")
+    $('#analysis').load("/modules/analysis/Analysis.html")
+    $('#footer').load("/components/layout/Footer.html")
+    
 }
 
 $(document).ready(() => {

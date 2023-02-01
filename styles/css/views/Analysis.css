@@ -1,0 +1,84 @@
+.analysis {
+  margin-top: 8.75rem;
+}
+.analysis .title {
+  text-align: center;
+}
+.analysis .title span {
+  font-size: 4rem;
+  color: #ffffff;
+}
+.analysis .description {
+  text-align: center;
+  margin-top: 0.9375rem;
+}
+.analysis .description span {
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+.analysis ul {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 3.875rem;
+  justify-content: center;
+}
+.analysis ul li {
+  width: 33.75rem;
+  height: 10rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1.25rem;
+}
+.analysis ul li .image-placeholder {
+  width: 10rem;
+  height: 100%;
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+.analysis ul li .details {
+  width: calc(100% - 10rem);
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.analysis ul li .details .title {
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+.analysis ul li .details .description-analysis {
+  font-size: 1.125rem;
+  color: rgba(255, 255, 255, 0.6);
+  margin-top: 0.625rem;
+}
+.analysis ul li .details .learn-more {
+  font-size: 1.125rem;
+  color: #EF443B;
+  margin-top: 0.625rem;
+}
+.analysis .enroll {
+  width: 17.5rem;
+  border-radius: 2.5rem;
+  border: 0.0625rem solid #EF443B;
+  background: transparent;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  margin: auto;
+  margin-top: 4.125rem;
+  display: grid;
+  place-items: center;
+  padding: 0.625rem 0;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.analysis .enroll:hover {
+  background: #6fc953;
+  border: 0.0625rem solid transparent;
+}
+
+/*# sourceMappingURL=Analysis.css.map */

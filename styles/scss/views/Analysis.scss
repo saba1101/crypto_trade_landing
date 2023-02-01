@@ -1,0 +1,90 @@
+.analysis{
+    margin-top: 8.75rem;
+    .title{
+        text-align: center;
+        span{
+            font-size: 4rem;
+            color: #ffffff;
+        }
+    }
+    .description{
+        text-align: center;
+        margin-top: 0.9375rem;
+        span{
+            font-size: 1.5rem;
+            color: rgba(#ffffff,.6);
+        }
+    }
+
+    ul{
+        margin-top: 5rem;
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 3.875rem;
+        justify-content: center;
+
+        li{
+            width: 33.75rem;
+            height: 10rem;
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+            gap: 1.25rem;
+
+            .image-placeholder{
+                width: 10rem;
+                height: 100%;
+                background-size: cover;
+                background-position: bottom;
+                background-repeat: no-repeat;
+            }
+
+            .details {
+                width: calc(100% - 10rem);
+                height: 100%;
+                display: flex;
+                align-items: flex-start;
+                justify-content: space-between;
+                flex-direction: column;
+
+                .title{
+                    font-size: 1.5rem;
+                    color: #ffffff;
+                }
+                .description-analysis{
+                    font-size: 1.125rem;
+                    color: rgba(#ffffff,.6);
+                    margin-top: 0.625rem;
+                }
+
+                .learn-more{
+                    font-size: 1.125rem;
+                    color: #EF443B;
+                    margin-top: 0.625rem;
+                }
+            }
+        }
+    }
+
+    .enroll{
+        width: 17.5rem;
+        border-radius: 2.5rem;
+        border: 0.0625rem solid #EF443B;
+        background: transparent;
+        color: #fff;
+        font-size: 1rem;
+        font-weight: 700;
+        margin: auto;
+        margin-top: 4.125rem;
+        display: grid;
+        place-items: center;
+        padding: 0.625rem 0;
+        cursor: pointer;
+        transition: all .2s;
+
+        &:hover{
+            background: #6fc953;
+            border: 0.0625rem solid transparent;
+        }
+    }
+}
