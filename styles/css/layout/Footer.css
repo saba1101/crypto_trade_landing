@@ -1,3 +1,108 @@
-
+.footer-content {
+  width: calc(100% - 20.625rem);
+  margin: auto;
+  margin-top: 11.875rem;
+  padding-bottom: 2.1875rem;
+}
+.footer-content .footer-top {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1.875rem;
+}
+.footer-content .footer-top ul {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.footer-content .footer-top ul .description {
+  width: 22.1875rem;
+}
+.footer-content .footer-top ul .description span {
+  line-height: 2.5rem;
+}
+.footer-content .footer-top ul li:not(.label) {
+  margin-top: 1rem;
+}
+.footer-content .footer-top ul li:not(.label) span {
+  color: #ffffff;
+  font-size: 1.125rem;
+  cursor: pointer;
+}
+.footer-content .footer-top ul li:not(.label) p {
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-content .footer-top ul li:not(.label) h2 {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1.25rem;
+}
+.footer-content .footer-top ul li:not(.label) .subscribe {
+  width: 21.875rem;
+  height: 3.875rem;
+  border-radius: 2.5rem;
+  background-color: #fff;
+  position: relative;
+  padding: 0 0.9375rem;
+}
+.footer-content .footer-top ul li:not(.label) .subscribe input {
+  width: 100%;
+  height: 100%;
+  color: #4d4d4d;
+  font-size: 1.125rem;
+  border: none;
+  background: transparent;
+  outline: none;
+  padding-right: 6.2rem;
+}
+.footer-content .footer-top ul li:not(.label) .subscribe input::placeholder {
+  color: #E0E0E0;
+  font-size: 1.125rem;
+}
+.footer-content .footer-top ul li:not(.label) .subscribe button {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  right: 0.625rem;
+  background: #EF443B;
+  color: #FFF;
+  font-size: 0.875rem;
+  padding: 0.625rem 0.9375rem;
+  border: none;
+  border-radius: 2.5rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.footer-content .footer-top ul li:not(.label) .subscribe button:hover {
+  background-color: #6fc953;
+}
+.footer-content .footer-top ul li.label {
+  font-size: 1.5rem;
+  color: #EF443B;
+  font-weight: 600;
+}
+.footer-content .footer-bottom {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4.6875rem;
+}
+.footer-content .footer-bottom span {
+  font-size: 0.875rem;
+  color: #ffffff;
+}
+.footer-content .footer-bottom .socials {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.625rem;
+}
+.footer-content .footer-bottom .socials img {
+  width: 1.375rem;
+  cursor: pointer;
+}
 
 /*# sourceMappingURL=Footer.css.map */
